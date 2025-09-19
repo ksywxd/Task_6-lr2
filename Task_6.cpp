@@ -3,12 +3,12 @@
 
 int main()
 {
-    double x, y, A, B, z, K, T, D, C;
-    std::cout << "Enter x, y, z, K, D, C" << std::endl;
-    std::cin >> x >> y >> z >> K >> D >> C;
-    A = x - y;
-    B = sqrt(z);
-    T = cos(x) + powl(A, 2) / (K - C * D) - B;
-    std::cout << T;
+    double x, n, A, m, Y, K, D;
+    std::cout << "Enter x, n, m, K" << std::endl;
+    std::cin >> x >> n >> m >> K;
+    A = fabs(n + m);
+    D = tan(x);
+    Y = 1.29 + K / A + powl(D, 2);
+    std::cout << Y;
     return 0;
 }
