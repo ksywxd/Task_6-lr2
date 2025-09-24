@@ -8,6 +8,10 @@ int main()
     std::cin >> x >> y >> z >> K >> D >> C;
     A = x - y;
     B = sqrt(z);
+    if (z < 0) {
+        std::cout << "negative value under square root" << std::endl;
+        return 1;
+    }
     if (K - C * D == 0) {
         std::cout << "division by zero" << std::endl;
         return 1;
