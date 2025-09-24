@@ -8,7 +8,7 @@ int main()
     std::cin >> x >> p >> K >> C >> D;
     B = exp(K);
     A = x + sin(p);
-    Y = 1 + powl(K, 2) / (2 * A * B) - B + D * C;
+    Y = 1 + pow(K, 2) / (2 * A * B) - B + D * C;
     std::cout << Y;
     return 0;
 }
