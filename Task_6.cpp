@@ -8,7 +8,7 @@ int main()
     std::cin >> x >> y >> K >> C;
     A = x + y;
     D = fabs(C - A);
-    S = 10.1 + A / C + D / powl(K, 2);
+    S = 10.1 + A / C + D / pow(K, 2);
     std::cout << S;
     return 0;
 }
