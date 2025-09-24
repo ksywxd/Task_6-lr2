@@ -8,7 +8,7 @@ int main()
     std::cin >> x >> p >> n >> K >> D;
     B = cos(x);
     C = p - n;
-    Q = powl(B, 2) / (K * D) + B * powl(C, 3);
+    Q = pow(B, 2) / (K * D) + B * pow(C, 3);
     std::cout << Q;
     return 0;
 }
