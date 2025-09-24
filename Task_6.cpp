@@ -8,7 +8,7 @@ int main()
     std::cin >> x >> y >> z >> K >> D >> C;
     A = x - y;
     B = sqrt(z);
-    T = cos(x) + powl(A, 2) / (K - C * D) - B;
+    T = cos(x) + pow(A, 2) / (K - C * D) - B;
     std::cout << T;
     return 0;
 }
