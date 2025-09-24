@@ -7,6 +7,11 @@ int main()
     std::cout << "Enter x, n, m, K" << std::endl;
     std::cin >> x >> n >> m >> K;
     A = fabs(n + m);
+    if (A == 0) {
+        std::cout << "division by zero" << std::endl;
+        return 1;
+    }
+
     D = tan(x);
     Y = 1.29 + K / A + pow(D, 2);
     std::cout << Y;
